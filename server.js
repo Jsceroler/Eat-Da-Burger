@@ -25,6 +25,6 @@ app.use(express.static(__dirname + "/public"));
 app.use("/", router);
 
 // Start server
-app.listen(PORT, function() {
-	console.log("Listening on PORT " + PORT);
-});
+app.listen(PORT, () =>
+  console.log(`Server has started on: http://localhost:${PORT}`)
+);

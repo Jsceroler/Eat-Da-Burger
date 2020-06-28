@@ -5,3 +5,9 @@
     border: 3px solid lightblue;
     padding: 10px;
 }
+body{
+    background-color: orange;
+}
+section{
+    background-color: white;
+}
